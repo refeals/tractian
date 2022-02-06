@@ -8,7 +8,7 @@ const Layout = () => {
 
   const renderCompanies = () => {
     return companies.map((c) => (
-      <li>
+      <li key={c.id}>
         <Link to={c.id.toString()}>{c.name}</Link>
       </li>
     ));

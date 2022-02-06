@@ -26,7 +26,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Layout />}>
-            <Route path="/:company_id" element={<Companies />} />
+            <Route path="/:companyId" element={<Companies />} />
             <Route path="*" element={<>404</>} />
           </Route>
         </Routes>
