@@ -39,3 +39,10 @@ export interface UserType {
   name: string;
   unitId: number;
 }
+
+export interface ReducerTypes {
+  assets: [AssetType];
+  companies: [CompanyType];
+  units: [UnitType];
+  users: [UserType];
+}
